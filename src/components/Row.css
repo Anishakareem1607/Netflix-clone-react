@@ -1,0 +1,23 @@
+.row{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.movie_row{
+    display: flex;
+    /* to enable horizontal scrolling */
+    overflow-x: scroll;
+}
+.movies{
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+    margin-right: 10px;
+    transform: 700ms;
+
+}
+.movies:hover{
+    transform: scale(1.3);
+}
+::-webkit-scrollbar{
+    display: none;
+}
